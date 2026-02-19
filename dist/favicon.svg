@@ -1,0 +1,8 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M16 1L4 6V14C4 21 8 27 16 31C24 27 28 21 28 14V6L16 1Z" fill="#22c55e"/>
+  
+  <!-- Soccer Ball -->
+  <circle cx="16" cy="15" r="7" fill="white"/>
+  <path d="M16 8L17.25 10.75L20.25 11.25L18 13.5L18.5 16.5L16 15L13.5 16.5L14 13.5L11.75 11.25L14.75 10.75L16 8Z" fill="#000000"/>
+</svg>
