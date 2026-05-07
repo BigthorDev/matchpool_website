@@ -39,7 +39,7 @@ export function Privacy() {
           <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
             <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section1.title")}</h3>
             <ul className="space-y-3">
-              {["point1", "point2", "point3", "point4"].map((key) => (
+              {["point1", "point2", "point3", "point4", "point5"].map((key) => (
                 <li key={key} className="flex items-start gap-3">
                   <Check className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700">{t(`privacy.section1.${key}`)}</span>
@@ -48,58 +48,18 @@ export function Privacy() {
             </ul>
           </div>
 
-          {/* Section 2 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section2.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section2.desc")}</p>
-          </div>
+          {/* Sections 2-10 */}
+          {[2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+            <div key={num} className="bg-white border-2 border-gray-200 rounded-2xl p-8">
+              <h3 className="text-2xl font-black text-black mb-4">{t(`privacy.section${num}.title`)}</h3>
+              <p className="text-gray-700 leading-relaxed">{t(`privacy.section${num}.desc`)}</p>
+            </div>
+          ))}
 
-          {/* Section 3 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section3.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section3.desc")}</p>
-          </div>
-
-          {/* Section 4 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section4.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section4.desc")}</p>
-          </div>
-
-          {/* Section 5 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section5.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section5.desc")}</p>
-          </div>
-
-          {/* Section 6 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section6.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section6.desc")}</p>
-          </div>
-
-          {/* Section 7 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section7.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section7.desc")}</p>
-          </div>
-
-          {/* Section 8 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section8.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section8.desc")}</p>
-          </div>
-
-          {/* Section 9 */}
-          <div className="bg-white border-2 border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-black text-black mb-4">{t("privacy.section9.title")}</h3>
-            <p className="text-gray-700 leading-relaxed">{t("privacy.section9.desc")}</p>
-          </div>
-
-          {/* Section 10 - Contact */}
+          {/* Section 11 - Contact */}
           <div className="bg-gradient-to-r from-teal-500 to-blue-500 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-black mb-4">{t("privacy.section10.title")}</h3>
-            <p className="mb-2">{t("privacy.section10.desc")}</p>
+            <h3 className="text-2xl font-black mb-4">{t("privacy.section11.title")}</h3>
+            <p className="mb-2">{t("privacy.section11.desc")}</p>
             <a href="mailto:support@matchpool.app" className="text-white underline font-bold text-lg hover:text-gray-200">
               support@matchpool.app
             </a>

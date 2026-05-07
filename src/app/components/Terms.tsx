@@ -39,14 +39,12 @@ export function Terms() {
           <div className="bg-gray-50 rounded-2xl p-8">
             <h3 className="text-2xl font-black text-black mb-4">{t("terms.section1.title")}</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700">{t("terms.section1.point1")}</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700">{t("terms.section1.point2")}</span>
-              </li>
+              {["point1", "point2", "point3"].map((key) => (
+                <li key={key} className="flex items-start gap-3">
+                  <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-700">{t(`terms.section1.${key}`)}</span>
+                </li>
+              ))}
             </ul>
           </div>
 
