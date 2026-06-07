@@ -56,6 +56,8 @@ export function Navbar() {
     setIsMobileMenuOpen(false);
   };
 
+  const gameUrl = "https://game.matchpool.app";
+
   const navLinks = [
     { label: t("nav.howItWorks"), action: () => scrollToSection("how-it-works") },
     { label: t("nav.poolTypes"), action: goToPoolTypes },
@@ -100,6 +102,13 @@ export function Navbar() {
                 {link.label}
               </button>
             ))}
+
+            <a
+              href={gameUrl}
+              className="px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-black font-bold rounded-lg text-sm transition-all transform hover:scale-105 shadow-lg shadow-green-500/30"
+            >
+              {t("nav.playNow")}
+            </a>
             
             {/* Language Toggle */}
             <button
@@ -145,6 +154,13 @@ export function Navbar() {
                 {link.label}
               </button>
             ))}
+            <a
+              href={gameUrl}
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block w-full text-center px-4 py-3 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-black font-bold rounded-lg transition-all mt-2"
+            >
+              {t("nav.playNow")}
+            </a>
           </div>
         )}
       </div>

@@ -1,11 +1,11 @@
 import { ChevronDown } from "lucide-react";
-import { useNavigate } from "react-router";
 import { useLanguage } from "../context/LanguageContext";
 import blackShieldLogo from "@/assets/blackShield.png";
 
 export function Hero() {
   const { t } = useLanguage();
-  const navigate = useNavigate();
+
+  const gameUrl = "https://game.matchpool.app";
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -46,17 +46,17 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <button
-            onClick={() => scrollToSection("how-it-works")}
+          <a
+            href={gameUrl}
             className="px-8 py-4 bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-black font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg shadow-green-500/50 hover:shadow-green-500/70"
           >
             {t("hero.cta1")}
-          </button>
+          </a>
           <button
-            onClick={() => navigate("/pool-types")}
+            onClick={() => scrollToSection("how-it-works")}
             className="px-8 py-4 bg-transparent border-2 border-white hover:bg-white/10 text-white font-bold rounded-lg text-lg transition-all"
           >
-            {t("hero.cta2")}
+            {t("nav.howItWorks")}
           </button>
         </div>
 

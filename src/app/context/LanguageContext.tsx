@@ -18,12 +18,13 @@ const translations = {
     "nav.privacy": "Privacy",
     "nav.contact": "Contact",
     "nav.points": "Points System",
+    "nav.playNow": "PLAY NOW!",
 
     // Hero
     "hero.title": "Matchpool",
     "hero.tagline": "Join pools, predict scores, climb the rankings",
     "hero.description": "Create or join private prediction pools for real football tournaments. Predict match scores, compete on rankings, and in Extreme pools change predictions after kick-off using coins.",
-    "hero.cta1": "Learn How It Works",
+    "hero.cta1": "Access it now",
     "hero.cta2": "Explore Pool Types",
 
     // What is a Pool
@@ -333,12 +334,13 @@ const translations = {
     "nav.privacy": "Privacidad",
     "nav.contact": "Contacto",
     "nav.points": "Sistema de Puntos",
+    "nav.playNow": "¡JUEGA AHORA!",
 
     // Hero
     "hero.title": "Matchpool",
     "hero.tagline": "Únete a pools, predice marcadores, escala en las clasificaciones",
     "hero.description": "Crea o únete a pools privados de predicción para torneos de fútbol reales. Predice marcadores de partidos, compite en las clasificaciones y en pools Extreme cambia predicciones después del inicio usando monedas.",
-    "hero.cta1": "Conoce Cómo Funciona",
+    "hero.cta1": "Accede ahora",
     "hero.cta2": "Explora Tipos de Pools",
 
     // What is a Pool
