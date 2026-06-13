@@ -134,7 +134,7 @@ const translations = {
     "faqs.q10": "How can I get coins?",
     "faqs.a10": "You can earn coins by watching short video ads in the app: go to the Coins Bank (or Coins section in your profile) and tap 'Watch Ad to Earn Coins'. You can watch a limited number of ads in a row, then you need to wait before watching more. A coins store where you can buy coins may be added in the future.",
     "faqs.q11": "What happens if I predict the winner of the tournament?",
-    "faqs.a11": "You can pick the team you think will win the tournament. If your pick wins the tournament, you earn 40 bonus points that are added to your final score in the pool. This is in addition to the points you get from match and player predictions.",
+    "faqs.a11": "You can pick the team you think will win the tournament. If your pick wins the tournament, you earn 30 bonus points that are added to your final score in the pool. This is in addition to the points you get from match and player predictions.",
 
     // Terms
     "terms.title": "Terms & Conditions",
@@ -287,7 +287,7 @@ const translations = {
 
     "points.tournamentWinner.title": "Tournament Winner Prediction",
     "points.tournamentWinner.points": "points",
-    "points.tournamentWinner.description": "When the tournament ends, every user who correctly predicted the winner receives a 40-point bonus added to their final pool score.",
+    "points.tournamentWinner.description": "When the tournament ends, every user who correctly predicted the winner receives a 30-point bonus added to their final pool score.",
 
     "points.example.title": "Example Calculation",
     "points.example.scenario.title": "Scenario:",
@@ -436,7 +436,7 @@ const translations = {
     "faqs.q10": "¿Cómo puedo obtener monedas?",
     "faqs.a10": "Puedes ganar monedas viendo anuncios de video cortos en la app: ve al Banco de Monedas (o sección de Monedas en tu perfil) y toca 'Ver Anuncio para Ganar Monedas'. Puedes ver un número limitado de anuncios seguidos, luego necesitas esperar antes de ver más. Puede agregarse una tienda de monedas donde puedas comprar monedas en el futuro.",
     "faqs.q11": "¿Qué pasa si predigo el ganador del torneo?",
-    "faqs.a11": "Puedes elegir el equipo que crees que ganará el torneo. Si tu elección gana el torneo, ganas 40 puntos de bonificación que se agregan a tu puntuación final en el pool. Esto es además de los puntos que obtienes de las predicciones de partidos y jugadores.",
+    "faqs.a11": "Puedes elegir el equipo que crees que ganará el torneo. Si tu elección gana el torneo, ganas 30 puntos de bonificación que se agregan a tu puntuación final en el pool. Esto es además de los puntos que obtienes de las predicciones de partidos y jugadores.",
 
     // Terms
     "terms.title": "Términos y Condiciones",
@@ -589,7 +589,7 @@ const translations = {
 
     "points.tournamentWinner.title": "Predicción del Ganador del Torneo",
     "points.tournamentWinner.points": "puntos",
-    "points.tournamentWinner.description": "Cuando termina el torneo, cada usuario que predijo correctamente al ganador recibe un bono de 40 puntos que se suma a su puntuación final en el pool.",
+    "points.tournamentWinner.description": "Cuando termina el torneo, cada usuario que predijo correctamente al ganador recibe un bono de 30 puntos que se suma a su puntuación final en el pool.",
 
     "points.example.title": "Cálculo de Ejemplo",
     "points.example.scenario.title": "Escenario:",

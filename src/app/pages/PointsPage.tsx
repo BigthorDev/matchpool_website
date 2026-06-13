@@ -174,7 +174,7 @@ export function PointsPage() {
                 </div>
                 <h2 className="text-3xl font-black mb-3">{t("points.tournamentWinner.title")}</h2>
                 <div className="inline-block">
-                  <span className="text-6xl font-black text-yellow-400">40</span>
+                  <span className="text-6xl font-black text-yellow-400">30</span>
                   <span className="text-2xl text-gray-400 ml-2">{t("points.tournamentWinner.points")}</span>
                 </div>
               </div>
